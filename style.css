@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&family=IBM+Plex+Sans:wght@600&family=Koulen&family=New+Rocker&family=Roboto:wght@300;400&family=UnifrakturCook&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: IBM Plex Sans;;
+}
+body {
+    background-color: #121214;
+    height: 100px;
+}
+/****MAIN****************************/
+/***********************************/
+#main-screen {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: space-between;
+    margin: auto;
+    height: 100vh;
+}
+#div-logo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 38px 0 0 0;
+}
+#div-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    color: white;
+    font-size: 22pt;
+    padding: 80px 0 0 0;
+}
+#div-base-users{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 690px;
+    margin: auto;
+}
+.ul-user{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    list-style: none;
+    
+}
+.li-img-user{
+    width: 160px;
+    cursor: pointer;
+}
+.img-user{
+    width: 160px;
+    border-radius: 8px;
+    border: 1.5px solid #FFFFFF;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+.img-user:hover{
+    box-shadow: 1px 1px 5px gray;
+    transition: 0.3s;
+}
+.li-name-user{
+    color: white;
+    height: 40px; 
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+#span-name-user{
+    margin: auto;
+    font-size: 14px;
+    color: #9C9C9C;
+    height: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: flex-end;
+}
+#ul-add-new-user{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;  
+}
+#li-add-new-user-elements{
+    background-color: #1e1e20;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin: auto;
+    height: 160px;
+    width: 160px;
+    cursor: pointer;
+}
+#li-add-new-user-elements:hover{
+    box-shadow: 1px 1px 5px gray;
+    transition: 0.3s;
+}
+#img-add-new-user-horizontal{
+    position: absolute;
+}
+#img-add-new-user-vertical{
+    position: absolute;
+}
+#img-add-new-user-circle{
+    position: absolute;
+}
+#div-button{
+    width: 216px;
+    height: 50px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    color: white;
+    transition: 0.3s;
+    border: 1pt solid white;
+    cursor: pointer;
+    
+}
+#div-button:hover{
+    box-shadow: 1px 1px 5px gray;
+    transition: 0.3s;
+}
+/****END OF MAIN**************************/
+/****************************************/
