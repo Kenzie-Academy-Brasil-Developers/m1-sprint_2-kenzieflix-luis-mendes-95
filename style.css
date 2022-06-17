@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: IBM Plex Sans;;
+    font-family: IBM Plex Sans;
 }
 body {
     background-color: #121214;
@@ -35,7 +35,7 @@ body {
     font-size: 22pt;
     padding: 80px 0 0 0;
 }
-#div-base-users{
+#ul-base-users{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -43,15 +43,23 @@ body {
     width: 690px;
     margin: auto;
 }
-.ul-user{
+.li-user{
     display: flex;
     justify-content: center;
     align-content: center;
     flex-direction: column;
-    list-style: none;
-    
+    list-style: none; 
+    font-size: 14px;
+    color: #9C9C9C;
+    transition: 0.3s;
 }
-.li-img-user{
+.li-user:hover{
+    color: white;
+    text-shadow: 1px 1px 5px gray;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.div-img-user{
     width: 160px;
     cursor: pointer;
 }
@@ -61,20 +69,20 @@ body {
     border: 1.5px solid #FFFFFF;
     border-radius: 8px;
     transition: 0.3s;
+    border: none;
 }
 .img-user:hover{
     box-shadow: 1px 1px 5px gray;
     transition: 0.3s;
 }
-.li-name-user{
-    color: white;
+.div-name-user{
     height: 40px; 
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
-    align-items: flex-end;
+    justify-content: center;
+    align-items: center;
 }
-#span-name-user{
+.span-name-user{
     margin: auto;
     font-size: 14px;
     color: #9C9C9C;
@@ -84,16 +92,25 @@ body {
     justify-content: center;
     align-content: flex-end;
 }
-#ul-add-new-user{
+#li-add-new-user{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;  
+    color: #9C9C9C;
+    font-size: 14px;
+    transition: 0.3s;
+}
+#li-add-new-user:hover{
+    color: white;
+    transition: 0.3s;
+    text-shadow: 1px 1px 5px gray;
 }
 #li-add-new-user-elements{
     background-color: #1e1e20;
     display: flex;
+    border-radius: 8px;
     justify-content: center;
     align-items: center;
     flex-direction: row;
@@ -133,6 +150,8 @@ body {
 #div-button:hover{
     box-shadow: 1px 1px 5px gray;
     transition: 0.3s;
+    background-color: white;
+    color: black;
 }
 /****END OF MAIN**************************/
 /****************************************/
